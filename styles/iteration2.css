@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.green-dot-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    flex-wrap: wrap;
+    width: 130px;
+    height: 130px;
+    border: 2px solid black;
+    color: white;
+    padding: 10px; 
+    float: 
+}
+
+.green-dot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: green;
+
+}
