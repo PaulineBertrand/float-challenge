@@ -1,0 +1,51 @@
+.body {
+    box-sizing: border-box;
+}
+
+
+.big-box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    position: relative;
+}
+
+
+div:not(.big-box) {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+   
+}
+
+.top-right {
+    position: absolute;
+    top: 0;
+    right:0;
+}
+
+.top-left {
+    position: absolute;
+    top: 0;
+    left:0;
+}
+
+
+.bottom-left {
+    position: absolute;
+    bottom: 0;
+    left:0;
+}
+
+
+.bottom-right {
+    position: absolute;
+    bottom: 0;
+    right:0;
+}
+
+.center {
+    position: absolute;
+    bottom: 90px;
+    left: 90px;
+}
